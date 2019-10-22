@@ -13,6 +13,11 @@ There is GitHub results as well for fully http request code.
 
 - TechBookFest Scraping
   - detail: https://github.com/hmarf/TechBookFest_serverside
+  
+## Environment
+
+- Swift version: `5.1`
+- Xcode version: `11.0`
 
 ## Library
 
@@ -20,3 +25,7 @@ There is GitHub results as well for fully http request code.
 - `APIKit`: https://github.com/ishkawa/APIKit
 - `Nuke`: https://github.com/kean/Nuke
 - `DiffableDataSources`: https://github.com/ra1028/DiffableDataSources
+
+## Demo
+
+<img src="https://github.com/takumaosada/TechBookFest_iOS/blob/master/tech_book_fest_ios.gif" width="300">
