@@ -8,13 +8,43 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class BaseTabBarController: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewControllers = [
+            createNavController(
+                viewController: CircleViewController.make(with: CircleViewModel()),
+                title: "技術書店",
+                imageName: "circle"
+            ),
+            createController(
+                viewController: SearchCircleViewController.make(with: SearchCircleViewModel()),
+                title: "検索",
+                imageName: "circle"
+            ),
+            createNavController(
+                viewController: HomeViewController.make(with: HomeViewModel(language: "swift")),
+                title: "GitHub",
+                imageName: "Github"
+            )
+        ]
     }
-
-
+    
+    private func createNavController(viewController: UIViewController, title: String, imageName: String) -> UIViewController {
+        viewController.navigationItem.title = title
+        let navController = UINavigationController(rootViewController: viewController)
+        navController.tabBarItem.title = title
+        navController.tabBarItem.image = UIImage(named: imageName)
+        navController.navigationBar.prefersLargeTitles = true
+        return navController
+    }
+    
+    private func createController(viewController: UIViewController, title: String, imageName: String) -> UIViewController {
+        let navController = UINavigationController(rootViewController: viewController)
+        navController.tabBarItem.title = title
+        navController.tabBarItem.image = UIImage(named: imageName)
+        return navController
+    }
 }
 

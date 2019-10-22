@@ -3,18 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15AE8C12C257DAB7E456177E /* Pods_TechBookFestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221584C8B86F3DBBF9E4D48 /* Pods_TechBookFestUITests.framework */; };
+		824D52B4235F10880043DAA4 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824D52B3235F10880043DAA4 /* HomeViewController.storyboard */; };
+		824D52B7235F11760043DAA4 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52B6235F11760043DAA4 /* Decodable.swift */; };
+		824D52B9235F119F0043DAA4 /* GitHubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52B8235F119F0043DAA4 /* GitHubApi.swift */; };
+		824D52BB235F11BC0043DAA4 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52BA235F11BC0043DAA4 /* GitHubRequest.swift */; };
+		824D52BD235F12110043DAA4 /* SessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52BC235F12110043DAA4 /* SessionExtension.swift */; };
+		824D52C0235F123B0043DAA4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52BF235F123B0043DAA4 /* DetailViewController.swift */; };
+		824D52C2235F12660043DAA4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52C1235F12660043DAA4 /* DetailViewModel.swift */; };
+		824D52C4235F12860043DAA4 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824D52C3235F12860043DAA4 /* DetailViewController.storyboard */; };
+		824D52C7235F1D990043DAA4 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52C6235F1D990043DAA4 /* CircleViewController.swift */; };
+		824D52C9235F1DA70043DAA4 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52C8235F1DA70043DAA4 /* CircleViewModel.swift */; };
+		824D52CB235F1DB60043DAA4 /* CircleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824D52CA235F1DB60043DAA4 /* CircleViewController.storyboard */; };
+		824D52D1235F3FD40043DAA4 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52D0235F3FD40043DAA4 /* String+.swift */; };
+		824D52D4235F4B780043DAA4 /* CircleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52D2235F4B780043DAA4 /* CircleCell.swift */; };
+		824D52D5235F4B780043DAA4 /* CircleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 824D52D3235F4B780043DAA4 /* CircleCell.xib */; };
+		824D52DB235F54540043DAA4 /* SearchCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52DA235F54540043DAA4 /* SearchCircleViewController.swift */; };
+		824D52DD235F54650043DAA4 /* SearchCircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52DC235F54650043DAA4 /* SearchCircleViewModel.swift */; };
+		824D52DF235F547D0043DAA4 /* SearchCircleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824D52DE235F547D0043DAA4 /* SearchCircleViewController.storyboard */; };
 		82CD02FA235F0C5800813D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD02F9235F0C5800813D07 /* AppDelegate.swift */; };
 		82CD02FC235F0C5800813D07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD02FB235F0C5800813D07 /* SceneDelegate.swift */; };
-		82CD02FE235F0C5800813D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD02FD235F0C5800813D07 /* ViewController.swift */; };
+		82CD02FE235F0C5800813D07 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD02FD235F0C5800813D07 /* BaseTabBarController.swift */; };
 		82CD0301235F0C5800813D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CD02FF235F0C5800813D07 /* Main.storyboard */; };
 		82CD0303235F0C5A00813D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CD0302235F0C5A00813D07 /* Assets.xcassets */; };
 		82CD0306235F0C5A00813D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CD0304235F0C5A00813D07 /* LaunchScreen.storyboard */; };
 		82CD0311235F0C5B00813D07 /* TechBookFestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD0310235F0C5B00813D07 /* TechBookFestTests.swift */; };
 		82CD031C235F0C5B00813D07 /* TechBookFestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD031B235F0C5B00813D07 /* TechBookFestUITests.swift */; };
+		82CD032C235F0CD000813D07 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD032B235F0CD000813D07 /* StoryboardInstantiable.swift */; };
+		82CD032F235F0DA000813D07 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD032E235F0DA000813D07 /* HomeViewController.swift */; };
+		82CD0331235F0E2200813D07 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD0330235F0E2200813D07 /* HomeViewModel.swift */; };
+		ACCB625929F42B83BF652179 /* Pods_TechBookFest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A58AC98BE79B8E41E9AB90 /* Pods_TechBookFest.framework */; };
+		FE0E288886D08E8BF3A4C2CD /* Pods_TechBookFestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA66E5E1809FA0D3BF218CF /* Pods_TechBookFestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +58,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024A7F718396D45E1232B7D0 /* Pods-TechBookFestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechBookFestUITests.debug.xcconfig"; path = "Target Support Files/Pods-TechBookFestUITests/Pods-TechBookFestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AB0CC82E68310924169B25E /* Pods-TechBookFest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechBookFest.release.xcconfig"; path = "Target Support Files/Pods-TechBookFest/Pods-TechBookFest.release.xcconfig"; sourceTree = "<group>"; };
+		16D36F600DB1D53A052B1FFD /* Pods-TechBookFest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechBookFest.debug.xcconfig"; path = "Target Support Files/Pods-TechBookFest/Pods-TechBookFest.debug.xcconfig"; sourceTree = "<group>"; };
+		2221584C8B86F3DBBF9E4D48 /* Pods_TechBookFestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechBookFestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA66E5E1809FA0D3BF218CF /* Pods_TechBookFestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechBookFestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A0DD927CA3317FF369344F /* Pods-TechBookFestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechBookFestTests.debug.xcconfig"; path = "Target Support Files/Pods-TechBookFestTests/Pods-TechBookFestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		824D52B3235F10880043DAA4 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		824D52B6235F11760043DAA4 /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		824D52B8235F119F0043DAA4 /* GitHubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubApi.swift; sourceTree = "<group>"; };
+		824D52BA235F11BC0043DAA4 /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
+		824D52BC235F12110043DAA4 /* SessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExtension.swift; sourceTree = "<group>"; };
+		824D52BF235F123B0043DAA4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		824D52C1235F12660043DAA4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		824D52C3235F12860043DAA4 /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
+		824D52C6235F1D990043DAA4 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		824D52C8235F1DA70043DAA4 /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
+		824D52CA235F1DB60043DAA4 /* CircleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CircleViewController.storyboard; sourceTree = "<group>"; };
+		824D52D0235F3FD40043DAA4 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		824D52D2235F4B780043DAA4 /* CircleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCell.swift; sourceTree = "<group>"; };
+		824D52D3235F4B780043DAA4 /* CircleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleCell.xib; sourceTree = "<group>"; };
+		824D52DA235F54540043DAA4 /* SearchCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCircleViewController.swift; sourceTree = "<group>"; };
+		824D52DC235F54650043DAA4 /* SearchCircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCircleViewModel.swift; sourceTree = "<group>"; };
+		824D52DE235F547D0043DAA4 /* SearchCircleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchCircleViewController.storyboard; sourceTree = "<group>"; };
 		82CD02F6235F0C5800813D07 /* TechBookFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CD02F9235F0C5800813D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82CD02FB235F0C5800813D07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82CD02FD235F0C5800813D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82CD02FD235F0C5800813D07 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		82CD0300235F0C5800813D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82CD0302235F0C5A00813D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CD0305235F0C5A00813D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +95,12 @@
 		82CD0317235F0C5B00813D07 /* TechBookFestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechBookFestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CD031B235F0C5B00813D07 /* TechBookFestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechBookFestUITests.swift; sourceTree = "<group>"; };
 		82CD031D235F0C5B00813D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CD032B235F0CD000813D07 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		82CD032E235F0DA000813D07 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		82CD0330235F0E2200813D07 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		96C57922BF6B6C5C3B363F97 /* Pods-TechBookFestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechBookFestTests.release.xcconfig"; path = "Target Support Files/Pods-TechBookFestTests/Pods-TechBookFestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3A58AC98BE79B8E41E9AB90 /* Pods_TechBookFest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechBookFest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBAFC6A0E6210EEE926B0DB /* Pods-TechBookFestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechBookFestUITests.release.xcconfig"; path = "Target Support Files/Pods-TechBookFestUITests/Pods-TechBookFestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCB625929F42B83BF652179 /* Pods_TechBookFest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0E288886D08E8BF3A4C2CD /* Pods_TechBookFestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +124,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15AE8C12C257DAB7E456177E /* Pods_TechBookFestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4597D7BF84F9D687C999A854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16D36F600DB1D53A052B1FFD /* Pods-TechBookFest.debug.xcconfig */,
+				0AB0CC82E68310924169B25E /* Pods-TechBookFest.release.xcconfig */,
+				68A0DD927CA3317FF369344F /* Pods-TechBookFestTests.debug.xcconfig */,
+				96C57922BF6B6C5C3B363F97 /* Pods-TechBookFestTests.release.xcconfig */,
+				024A7F718396D45E1232B7D0 /* Pods-TechBookFestUITests.debug.xcconfig */,
+				BCBAFC6A0E6210EEE926B0DB /* Pods-TechBookFestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		824D52B5235F11520043DAA4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				824D52B6235F11760043DAA4 /* Decodable.swift */,
+				824D52B8235F119F0043DAA4 /* GitHubApi.swift */,
+				824D52BA235F11BC0043DAA4 /* GitHubRequest.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		824D52BE235F12290043DAA4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				824D52BF235F123B0043DAA4 /* DetailViewController.swift */,
+				824D52C1235F12660043DAA4 /* DetailViewModel.swift */,
+				824D52C3235F12860043DAA4 /* DetailViewController.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		824D52C5235F1D820043DAA4 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				824D52C6235F1D990043DAA4 /* CircleViewController.swift */,
+				824D52C8235F1DA70043DAA4 /* CircleViewModel.swift */,
+				824D52CA235F1DB60043DAA4 /* CircleViewController.storyboard */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		824D52D8235F53190043DAA4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				824D52D2235F4B780043DAA4 /* CircleCell.swift */,
+				824D52D3235F4B780043DAA4 /* CircleCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		824D52D9235F543E0043DAA4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				824D52DA235F54540043DAA4 /* SearchCircleViewController.swift */,
+				824D52DC235F54650043DAA4 /* SearchCircleViewModel.swift */,
+				824D52DE235F547D0043DAA4 /* SearchCircleViewController.storyboard */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		82CD02ED235F0C5800813D07 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +200,8 @@
 				82CD030F235F0C5B00813D07 /* TechBookFestTests */,
 				82CD031A235F0C5B00813D07 /* TechBookFestUITests */,
 				82CD02F7235F0C5800813D07 /* Products */,
+				4597D7BF84F9D687C999A854 /* Pods */,
+				C496696DFDB289BBBC698FBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +218,11 @@
 		82CD02F8235F0C5800813D07 /* TechBookFest */ = {
 			isa = PBXGroup;
 			children = (
+				824D52B5235F11520043DAA4 /* Repository */,
+				82CD032A235F0CC000813D07 /* Extension */,
+				82CD0329235F0C6F00813D07 /* Presentation */,
 				82CD02F9235F0C5800813D07 /* AppDelegate.swift */,
 				82CD02FB235F0C5800813D07 /* SceneDelegate.swift */,
-				82CD02FD235F0C5800813D07 /* ViewController.swift */,
 				82CD02FF235F0C5800813D07 /* Main.storyboard */,
 				82CD0302235F0C5A00813D07 /* Assets.xcassets */,
 				82CD0304235F0C5A00813D07 /* LaunchScreen.storyboard */,
@@ -128,6 +249,49 @@
 			path = TechBookFestUITests;
 			sourceTree = "<group>";
 		};
+		82CD0329235F0C6F00813D07 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				824D52D8235F53190043DAA4 /* Cell */,
+				824D52D9235F543E0043DAA4 /* Search */,
+				824D52C5235F1D820043DAA4 /* Circle */,
+				824D52BE235F12290043DAA4 /* Detail */,
+				82CD032D235F0D8A00813D07 /* Home */,
+				82CD02FD235F0C5800813D07 /* BaseTabBarController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		82CD032A235F0CC000813D07 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				82CD032B235F0CD000813D07 /* StoryboardInstantiable.swift */,
+				824D52BC235F12110043DAA4 /* SessionExtension.swift */,
+				824D52D0235F3FD40043DAA4 /* String+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		82CD032D235F0D8A00813D07 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				82CD032E235F0DA000813D07 /* HomeViewController.swift */,
+				82CD0330235F0E2200813D07 /* HomeViewModel.swift */,
+				824D52B3235F10880043DAA4 /* HomeViewController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C496696DFDB289BBBC698FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A58AC98BE79B8E41E9AB90 /* Pods_TechBookFest.framework */,
+				3DA66E5E1809FA0D3BF218CF /* Pods_TechBookFestTests.framework */,
+				2221584C8B86F3DBBF9E4D48 /* Pods_TechBookFestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82CD0320235F0C5B00813D07 /* Build configuration list for PBXNativeTarget "TechBookFest" */;
 			buildPhases = (
+				FE60BA3BE2427B45ACC99C7E /* [CP] Check Pods Manifest.lock */,
 				82CD02F2235F0C5800813D07 /* Sources */,
 				82CD02F3235F0C5800813D07 /* Frameworks */,
 				82CD02F4235F0C5800813D07 /* Resources */,
+				632A98C9ADDBA93DE5D7E7D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82CD0323235F0C5B00813D07 /* Build configuration list for PBXNativeTarget "TechBookFestTests" */;
 			buildPhases = (
+				7178A434CEF64582EC3457CD /* [CP] Check Pods Manifest.lock */,
 				82CD0308235F0C5B00813D07 /* Sources */,
 				82CD0309235F0C5B00813D07 /* Frameworks */,
 				82CD030A235F0C5B00813D07 /* Resources */,
@@ -170,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82CD0326235F0C5B00813D07 /* Build configuration list for PBXNativeTarget "TechBookFestUITests" */;
 			buildPhases = (
+				ABBA33E4B76C163023D1FFF8 /* [CP] Check Pods Manifest.lock */,
 				82CD0313235F0C5B00813D07 /* Sources */,
 				82CD0314235F0C5B00813D07 /* Frameworks */,
 				82CD0315235F0C5B00813D07 /* Resources */,
@@ -232,8 +400,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824D52B4235F10880043DAA4 /* HomeViewController.storyboard in Resources */,
+				824D52CB235F1DB60043DAA4 /* CircleViewController.storyboard in Resources */,
 				82CD0306235F0C5A00813D07 /* LaunchScreen.storyboard in Resources */,
+				824D52DF235F547D0043DAA4 /* SearchCircleViewController.storyboard in Resources */,
+				824D52C4235F12860043DAA4 /* DetailViewController.storyboard in Resources */,
 				82CD0303235F0C5A00813D07 /* Assets.xcassets in Resources */,
+				824D52D5235F4B780043DAA4 /* CircleCell.xib in Resources */,
 				82CD0301235F0C5800813D07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +427,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		632A98C9ADDBA93DE5D7E7D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechBookFest/Pods-TechBookFest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechBookFest/Pods-TechBookFest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechBookFest/Pods-TechBookFest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7178A434CEF64582EC3457CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechBookFestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABBA33E4B76C163023D1FFF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechBookFestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE60BA3BE2427B45ACC99C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechBookFest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82CD02F2235F0C5800813D07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CD02FE235F0C5800813D07 /* ViewController.swift in Sources */,
+				824D52C0235F123B0043DAA4 /* DetailViewController.swift in Sources */,
+				82CD032F235F0DA000813D07 /* HomeViewController.swift in Sources */,
+				82CD0331235F0E2200813D07 /* HomeViewModel.swift in Sources */,
+				82CD02FE235F0C5800813D07 /* BaseTabBarController.swift in Sources */,
+				824D52DB235F54540043DAA4 /* SearchCircleViewController.swift in Sources */,
+				824D52B7235F11760043DAA4 /* Decodable.swift in Sources */,
+				824D52BD235F12110043DAA4 /* SessionExtension.swift in Sources */,
 				82CD02FA235F0C5800813D07 /* AppDelegate.swift in Sources */,
+				824D52D1235F3FD40043DAA4 /* String+.swift in Sources */,
+				824D52C2235F12660043DAA4 /* DetailViewModel.swift in Sources */,
+				824D52BB235F11BC0043DAA4 /* GitHubRequest.swift in Sources */,
+				82CD032C235F0CD000813D07 /* StoryboardInstantiable.swift in Sources */,
+				824D52C9235F1DA70043DAA4 /* CircleViewModel.swift in Sources */,
 				82CD02FC235F0C5800813D07 /* SceneDelegate.swift in Sources */,
+				824D52D4235F4B780043DAA4 /* CircleCell.swift in Sources */,
+				824D52B9235F119F0043DAA4 /* GitHubApi.swift in Sources */,
+				824D52DD235F54650043DAA4 /* SearchCircleViewModel.swift in Sources */,
+				824D52C7235F1D990043DAA4 /* CircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +706,7 @@
 		};
 		82CD0321235F0C5B00813D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D36F600DB1D53A052B1FFD /* Pods-TechBookFest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +725,7 @@
 		};
 		82CD0322235F0C5B00813D07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB0CC82E68310924169B25E /* Pods-TechBookFest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +744,7 @@
 		};
 		82CD0324235F0C5B00813D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A0DD927CA3317FF369344F /* Pods-TechBookFestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +767,7 @@
 		};
 		82CD0325235F0C5B00813D07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C57922BF6B6C5C3B363F97 /* Pods-TechBookFestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +790,7 @@
 		};
 		82CD0327235F0C5B00813D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024A7F718396D45E1232B7D0 /* Pods-TechBookFestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +811,7 @@
 		};
 		82CD0328235F0C5B00813D07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBAFC6A0E6210EEE926B0DB /* Pods-TechBookFestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

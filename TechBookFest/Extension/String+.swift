@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+extension String {
+    var unescaped: String {
+        return self.replacingOccurrences(of: "\n", with: "")
+    }
+}
