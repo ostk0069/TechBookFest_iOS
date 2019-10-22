@@ -2,9 +2,9 @@
 
 ## OverView
 
-showing TechBookCircle list with scraping.  
+Showing TechBookCircle list with scraping.  
 For now, scraping results are just a stable json file.  
-showing in list and able to search with diffable result.  
+Showing in list and able to search with diffable result.  
 There is GitHub results as well for fully http request code.
 
 ## API
