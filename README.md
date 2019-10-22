@@ -4,7 +4,7 @@
 
 Showing TechBookCircle list with scraping.  
 For now, scraping results are just a stable json file.  
-Showing in list and able to search with diffable result.  
+Showing in list and able to search with diffable result and display detail in WebView with half modal. 
 There is GitHub results as well for fully http request code.
 
 ## API
