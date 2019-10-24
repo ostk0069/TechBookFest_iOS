@@ -25,6 +25,10 @@
 		824D52DB235F54540043DAA4 /* SearchCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52DA235F54540043DAA4 /* SearchCircleViewController.swift */; };
 		824D52DD235F54650043DAA4 /* SearchCircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D52DC235F54650043DAA4 /* SearchCircleViewModel.swift */; };
 		824D52DF235F547D0043DAA4 /* SearchCircleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824D52DE235F547D0043DAA4 /* SearchCircleViewController.storyboard */; };
+		82954DE9236004DB00651401 /* CircleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82954DE8236004DB00651401 /* CircleApi.swift */; };
+		82954DEC23604FBE00651401 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82954DEB23604FBE00651401 /* ProductViewController.swift */; };
+		82954DEE23604FCA00651401 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82954DED23604FCA00651401 /* ProductViewModel.swift */; };
+		82954DF023604FDB00651401 /* ProductViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82954DEF23604FDB00651401 /* ProductViewController.storyboard */; };
 		82CD02FA235F0C5800813D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD02F9235F0C5800813D07 /* AppDelegate.swift */; };
 		82CD02FC235F0C5800813D07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD02FB235F0C5800813D07 /* SceneDelegate.swift */; };
 		82CD02FE235F0C5800813D07 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD02FD235F0C5800813D07 /* BaseTabBarController.swift */; };
@@ -81,6 +85,10 @@
 		824D52DA235F54540043DAA4 /* SearchCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCircleViewController.swift; sourceTree = "<group>"; };
 		824D52DC235F54650043DAA4 /* SearchCircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCircleViewModel.swift; sourceTree = "<group>"; };
 		824D52DE235F547D0043DAA4 /* SearchCircleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchCircleViewController.storyboard; sourceTree = "<group>"; };
+		82954DE8236004DB00651401 /* CircleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleApi.swift; sourceTree = "<group>"; };
+		82954DEB23604FBE00651401 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		82954DED23604FCA00651401 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		82954DEF23604FDB00651401 /* ProductViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductViewController.storyboard; sourceTree = "<group>"; };
 		82CD02F6235F0C5800813D07 /* TechBookFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechBookFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CD02F9235F0C5800813D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82CD02FB235F0C5800813D07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +158,7 @@
 				824D52B6235F11760043DAA4 /* Decodable.swift */,
 				824D52B8235F119F0043DAA4 /* GitHubApi.swift */,
 				824D52BA235F11BC0043DAA4 /* GitHubRequest.swift */,
+				82954DE8236004DB00651401 /* CircleApi.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -191,6 +200,16 @@
 				824D52DE235F547D0043DAA4 /* SearchCircleViewController.storyboard */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		82954DEA23604F9B00651401 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				82954DEB23604FBE00651401 /* ProductViewController.swift */,
+				82954DED23604FCA00651401 /* ProductViewModel.swift */,
+				82954DEF23604FDB00651401 /* ProductViewController.storyboard */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 		82CD02ED235F0C5800813D07 = {
@@ -252,6 +271,7 @@
 		82CD0329235F0C6F00813D07 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				82954DEA23604F9B00651401 /* Product */,
 				824D52D8235F53190043DAA4 /* Cell */,
 				824D52D9235F543E0043DAA4 /* Search */,
 				824D52C5235F1D820043DAA4 /* Circle */,
@@ -406,6 +426,7 @@
 				824D52DF235F547D0043DAA4 /* SearchCircleViewController.storyboard in Resources */,
 				824D52C4235F12860043DAA4 /* DetailViewController.storyboard in Resources */,
 				82CD0303235F0C5A00813D07 /* Assets.xcassets in Resources */,
+				82954DF023604FDB00651401 /* ProductViewController.storyboard in Resources */,
 				824D52D5235F4B780043DAA4 /* CircleCell.xib in Resources */,
 				82CD0301235F0C5800813D07 /* Main.storyboard in Resources */,
 			);
@@ -528,13 +549,16 @@
 				82CD02FA235F0C5800813D07 /* AppDelegate.swift in Sources */,
 				824D52D1235F3FD40043DAA4 /* String+.swift in Sources */,
 				824D52C2235F12660043DAA4 /* DetailViewModel.swift in Sources */,
+				82954DE9236004DB00651401 /* CircleApi.swift in Sources */,
 				824D52BB235F11BC0043DAA4 /* GitHubRequest.swift in Sources */,
 				82CD032C235F0CD000813D07 /* StoryboardInstantiable.swift in Sources */,
 				824D52C9235F1DA70043DAA4 /* CircleViewModel.swift in Sources */,
+				82954DEE23604FCA00651401 /* ProductViewModel.swift in Sources */,
 				82CD02FC235F0C5800813D07 /* SceneDelegate.swift in Sources */,
 				824D52D4235F4B780043DAA4 /* CircleCell.swift in Sources */,
 				824D52B9235F119F0043DAA4 /* GitHubApi.swift in Sources */,
 				824D52DD235F54650043DAA4 /* SearchCircleViewModel.swift in Sources */,
+				82954DEC23604FBE00651401 /* ProductViewController.swift in Sources */,
 				824D52C7235F1D990043DAA4 /* CircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

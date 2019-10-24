@@ -13,6 +13,8 @@ target 'TechBookFest' do
   pod 'APIKit'
   pod 'Nuke'
   pod 'DiffableDataSources'
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
 
   target 'TechBookFestTests' do
     inherit! :search_paths

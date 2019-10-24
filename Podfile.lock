@@ -2,6 +2,7 @@ PODS:
   - Action (4.0.0):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
+  - Alamofire (4.9.0)
   - APIKit (5.0.0)
   - DiffableDataSources (0.2.0):
     - DifferenceKit/AppKitExtension (~> 1.1)
@@ -19,19 +20,23 @@ PODS:
   - RxWebKit (1.0.0):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Action
+  - Alamofire
   - APIKit
   - DiffableDataSources
   - Nuke
   - RxCocoa
   - RxSwift
   - RxWebKit
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Action
+    - Alamofire
     - APIKit
     - DiffableDataSources
     - DifferenceKit
@@ -40,9 +45,11 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - RxWebKit
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   APIKit: b27d79b022733b2f50e7a092e67c4cb9ea30f968
   DiffableDataSources: d67c7fe103c0eb2077fbaa73d9a231721455988e
   DifferenceKit: 5018791b6c1fc839921a3c171a0a539ace6ea60c
@@ -51,7 +58,8 @@ SPEC CHECKSUMS:
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   RxWebKit: 9ff7ea0780a093450defc7ff13e218678ebe6e4a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: ac48cc4af5ee3af93f9cf20611c054323c293d6a
+PODFILE CHECKSUM: eb43fc49aab8d2f7d568021a2365576b623539e6
 
 COCOAPODS: 1.7.4

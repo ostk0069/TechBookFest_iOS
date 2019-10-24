@@ -9,6 +9,8 @@
 import Foundation
 import RxSwift
 import RxRelay
+import Alamofire
+import SwiftyJSON
 
 protocol SearchCircleViewModelInputs {}
 

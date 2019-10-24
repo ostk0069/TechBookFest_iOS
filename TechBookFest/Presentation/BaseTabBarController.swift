@@ -23,6 +23,11 @@ final class BaseTabBarController: UITabBarController {
                 title: "検索",
                 imageName: "circle"
             ),
+            createController(
+                viewController: ProductViewController.make(with: ProductViewModel(repository: ProductRepositoryImpl())),
+                title: "検索",
+                imageName: "circle"
+            ),
             createNavController(
                 viewController: HomeViewController.make(with: HomeViewModel(language: "swift")),
                 title: "GitHub",
